@@ -1,0 +1,14 @@
+.nav {
+  background-color: #7fcec5;
+  background-image: linear-gradient(315deg, #7fcec5 14%, #14557b 84%);
+  border-radius: 10px;
+  size: 20px;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  background-image: url(".././Components/icons/emo.png");
+  background-position: center;
+  background-size: cover;
+}

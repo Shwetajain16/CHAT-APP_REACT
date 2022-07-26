@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  background-image: url("././animation/bb.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.box {
+  background-image: url("././animation/box.webp");
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.inputWithButton {
+  position: relative;
+  height: 50px;
+  width: 90%;
+  background-color: rgba(255, 255, 240, 0.842);
+}
+
+.inputWithButton input {
+  width: 100%;
+  height: 50px;
+}
+
+.inputWithButton button {
+  position: absolute;
+  right: 0;
+  top: 0px;
+}
